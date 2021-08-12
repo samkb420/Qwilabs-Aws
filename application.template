@@ -209,7 +209,7 @@ Resources:
                     <title>Simple Web Application</title>
                   </head>
                   <body>
-                    <header style='background: #a13941;color: #e9ecef;'>
+                    <header style='background: #516270;color: #e9ecef;'>
                       <div class='container' style='padding: 20px;'>
                         <h1>Web Application</h1>
                       </div>
@@ -221,7 +221,7 @@ Resources:
                         <p>Region: {{region}}</p>
                       </div>
                     </section>
-                    <footer style="background: #a13941;color: #e9ecef;" >
+                    <footer style="background: #516270;color: #e9ecef;" >
                       <div class="container"><small>Example Corp 2021</small></div>
                     </footer>
                   </body>
@@ -258,7 +258,7 @@ Resources:
 
               ##Release notes
               ## - initial release
-
+              ## - updated site colors
               ##End release notes
 
               /opt/aws/bin/cfn-signal --e $exitCode --stack ${AWS::StackName} --resource webASG --region ${AWS::Region}
